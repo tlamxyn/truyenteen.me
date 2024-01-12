@@ -1,4 +1,5 @@
 # *ĐỒ ÁN TỐT NGHIỆP*
+# *TRƯỜNG CAO ĐẲNG KỸ THUẬT CAO THẮNG*
 
 ## *1. Thông tin cơ bản*
 
