@@ -17,3 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://truyenteen.me/')
+
+WebUI.waitForElementPresent(findTestObject('Page_TrangChu/button_TurnAdOff'), 5)
+
+WebUI.click(findTestObject('Object Repository/Page_TrangChu/button_TurnAdOff'))
+
+WebUI.mouseOver(findTestObject('NavigationBar/dropdown_iconuser'))
+
+WebUI.click(findTestObject('Object Repository/NavigationBar/link_DangNhap'))
+
+WebUI.setText(findTestObject('Object Repository/Page_DangNhap/input_email'), 'tuanle0903541031@gmail.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_DangNhap/input_password'), 'MHSUC33hkPmEvh0ovFgCGQ==')
+
+WebUI.click(findTestObject('Object Repository/Page_DangNhap/button_DangNhap'))
+
+WebUI.click(findTestObject('Object Repository/Page_TrangChu/button_TurnAdOff'))
+
+WebUI.mouseOver(findTestObject('NavigationBar/dropdown_iconuser'))
+
+WebUI.verifyElementPresent(findTestObject('NavigationBar/link_ThongTinUser'), 0)
+
+WebUI.closeBrowser()
+
