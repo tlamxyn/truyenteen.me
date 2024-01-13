@@ -18,4 +18,3 @@
     Mô tả: Source này là một project kiểm thử được tạo bởi Katalon Studio nhằm thực hiện kiểm thử tự động. Đây là phần thực hành. Bản báo cáo được để riêng
 
 ## *2. Thông tin source*
-
