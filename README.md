@@ -19,3 +19,9 @@
 
 ## *2. Thông tin source*
 
+Source gồm 2 Test Case:
+
+    ./Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng.tc
+    ./Test Cases/TimKiem/TimKiem_DSTruyenTraVe_TenTruyenKhopTuKhoa.tc
+
+Mỗi Test Case có 1 Test Suit tương ứng để tạo Data-Driven Test. Trên thực tế có thể tạo Data-Driven Test tại mỗi test case nhưng vì lý do hết hạn dùng thử nên chỉ có thể dùng phương pháp khác
