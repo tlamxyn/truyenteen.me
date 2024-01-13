@@ -52,17 +52,16 @@ if (successLogin) {
             ((e[0]) == Email) && ((e[1]) == Password)
         })
 
-    if (!(validAccount)) {
-        assert "Email: $Email và Password: $Password không hợp lệ. Kết quả mong đợi là không đăng nhập được.Kết quả thực tế lại đăng nhập thành công"
-    }
+	WebUI.comment("Email và Password không hợp lệ. Kết quả mong đợi là không đăng nhập được.Kết quả thực tế lại đăng nhập thành công")
+    assert validAccount
+
 } else {
     List<String[]> validAccount = listOfCorrectAccount.find({ def e ->
             ((e[0]) == Email) && ((e[1]) == Password)
         })
 
-    if (validAccount) {
-        assert "Email: $Email và Password: $Password không hợp lệ. Kết quả mong đợi là đăng nhập được. Kết quả thực tế lại không đăng nhập thành công"
-    }
+	WebUI.comment("Email và Password không hợp lệ. Kết quả mong đợi là đăng nhập được. Kết quả thực tế lại không đăng nhập thành công")
+    assert validAccount
 }
 
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)

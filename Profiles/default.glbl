@@ -4,4 +4,14 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://truyenteen.me'</initValue>
+      <name>url_main</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://truyenteen.me/login'</initValue>
+      <name>url_login</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
