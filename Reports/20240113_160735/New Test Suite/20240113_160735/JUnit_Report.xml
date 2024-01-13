@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="0.799" tests="8" failures="0" errors="8">
+   <testsuite name="New Test Suite" tests="8" failures="0" errors="8" time="0.799" skipped="0" timestamp="2024-01-13 16:07:38" hostname="DELL - DESKTOP-T835F3C" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\MONHOC\\DoAnTotNghiep_2\\automation_2\\truyenteen.me\\Reports\\20240113_160735\\New Test Suite\\20240113_160735"/>
+         <property name="logFiles" value="D:\\MONHOC\\DoAnTotNghiep_2\\automation_2\\truyenteen.me\\Reports\\20240113_160735\\New Test Suite\\20240113_160735\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DELL - DESKTOP-T835F3C"/>
+         <property name="hostAddress" value="192.168.85.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+      </properties>
+      <testcase name="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" time="0.035" classname="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" status="ERROR">
+         <error type="ERROR" message="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1705129658487.groovy: 56: expecting anything but ''\n''; got it anyway @ line 56, column 67.
+   sword: $Password không hợp lệ.
+                                 ^
+
+1 error
+"/>
+         <system-out><![CDATA[2024-01-13 16:07:38 - [TEST_CASE][ERROR] - Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng: Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1705129658487.groovy: 56: expecting anything but ''\n''; got it anyway @ line 56, column 67.
+   sword: $Password không hợp lệ.
+                                 ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2024-01-13 16:07:38 - [TEST_CASE][ERROR] - Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng: Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1705129658487.groovy: 56: expecting anything but ''\n''; got it anyway @ line 56, column 67.
+   sword: $Password không hợp lệ.
+                                 ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" time="0.016" classname="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" status="ERROR">
+         <error type="ERROR" message="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1705129658569.groovy: 56: expecting anything but ''\n''; got it anyway @ line 56, column 67.
+   sword: $Password không hợp lệ.
+                                 ^
+
+1 error
+"/>
+         <system-out><![CDATA[2024-01-13 16:07:38 - [TEST_CASE][ERROR] - Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng: Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1705129658569.groovy: 56: expecting anything but ''\n''; got it anyway @ line 56, column 67.
+   sword: $Password không hợp lệ.
+                                 ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2024-01-13 16:07:38 - [TEST_CASE][ERROR] - Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng: Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1705129658569.groovy: 56: expecting anything but ''\n''; got it anyway @ line 56, column 67.
+   sword: $Password không hợp lệ.
+                                 ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" time="0.013" classname="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" status="ERROR">
+         <error type="ERROR" message="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1705129658627.groovy: 56: expecting anything but ''\n''; got it anyway @ line 56, column 67.
+   sword: $Password không hợp lệ.
+                                 ^
+
+1 error
+"/>
+         <system-out><![CDATA[2024-01-13 16:07:38 - [TEST_CASE][ERROR] - Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng: Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1705129658627.groovy: 56: expecting anything but ''\n''; got it anyway @ line 56, column 67.
+   sword: $Password không hợp lệ.
+                                 ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2024-01-13 16:07:38 - [TEST_CASE][ERROR] - Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng: Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1705129658627.groovy: 56: expecting anything but ''\n''; got it anyway @ line 56, column 67.
+   sword: $Password không hợp lệ.
+                                 ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" time="0.014" classname="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" status="ERROR">
+         <error type="ERROR" message="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1705129658681.groovy: 56: expecting anything but ''\n''; got it anyway @ line 56, column 67.
+   sword: $Password không hợp lệ.
+                                 ^
+
+1 error
+"/>
+         <system-out><![CDATA[2024-01-13 16:07:38 - [TEST_CASE][ERROR] - Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng: Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1705129658681.groovy: 56: expecting anything but ''\n''; got it anyway @ line 56, column 67.
+   sword: $Password không hợp lệ.
+                                 ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2024-01-13 16:07:38 - [TEST_CASE][ERROR] - Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng: Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1705129658681.groovy: 56: expecting anything but ''\n''; got it anyway @ line 56, column 67.
+   sword: $Password không hợp lệ.
+                                 ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" time="0.014" classname="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" status="ERROR">
+         <error type="ERROR" message="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1705129658734.groovy: 56: expecting anything but ''\n''; got it anyway @ line 56, column 67.
+   sword: $Password không hợp lệ.
+                                 ^
+
+1 error
+"/>
+         <system-out><![CDATA[2024-01-13 16:07:38 - [TEST_CASE][ERROR] - Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng: Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1705129658734.groovy: 56: expecting anything but ''\n''; got it anyway @ line 56, column 67.
+   sword: $Password không hợp lệ.
+                                 ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2024-01-13 16:07:38 - [TEST_CASE][ERROR] - Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng: Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1705129658734.groovy: 56: expecting anything but ''\n''; got it anyway @ line 56, column 67.
+   sword: $Password không hợp lệ.
+                                 ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" time="0.013" classname="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" status="ERROR">
+         <error type="ERROR" message="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1705129658790.groovy: 56: expecting anything but ''\n''; got it anyway @ line 56, column 67.
+   sword: $Password không hợp lệ.
+                                 ^
+
+1 error
+"/>
+         <system-out><![CDATA[2024-01-13 16:07:38 - [TEST_CASE][ERROR] - Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng: Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1705129658790.groovy: 56: expecting anything but ''\n''; got it anyway @ line 56, column 67.
+   sword: $Password không hợp lệ.
+                                 ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2024-01-13 16:07:38 - [TEST_CASE][ERROR] - Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng: Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1705129658790.groovy: 56: expecting anything but ''\n''; got it anyway @ line 56, column 67.
+   sword: $Password không hợp lệ.
+                                 ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" time="0.013" classname="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" status="ERROR">
+         <error type="ERROR" message="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1705129658838.groovy: 56: expecting anything but ''\n''; got it anyway @ line 56, column 67.
+   sword: $Password không hợp lệ.
+                                 ^
+
+1 error
+"/>
+         <system-out><![CDATA[2024-01-13 16:07:38 - [TEST_CASE][ERROR] - Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng: Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1705129658838.groovy: 56: expecting anything but ''\n''; got it anyway @ line 56, column 67.
+   sword: $Password không hợp lệ.
+                                 ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2024-01-13 16:07:38 - [TEST_CASE][ERROR] - Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng: Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1705129658838.groovy: 56: expecting anything but ''\n''; got it anyway @ line 56, column 67.
+   sword: $Password không hợp lệ.
+                                 ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" time="0.012" classname="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" status="ERROR">
+         <error type="ERROR" message="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1705129658888.groovy: 56: expecting anything but ''\n''; got it anyway @ line 56, column 67.
+   sword: $Password không hợp lệ.
+                                 ^
+
+1 error
+"/>
+         <system-out><![CDATA[2024-01-13 16:07:38 - [TEST_CASE][ERROR] - Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng: Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1705129658888.groovy: 56: expecting anything but ''\n''; got it anyway @ line 56, column 67.
+   sword: $Password không hợp lệ.
+                                 ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2024-01-13 16:07:38 - [TEST_CASE][ERROR] - Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng: Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1705129658888.groovy: 56: expecting anything but ''\n''; got it anyway @ line 56, column 67.
+   sword: $Password không hợp lệ.
+                                 ^
+
+1 error]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-01-13 16:07:38 - [TEST_SUITE][ERROR] - New Test Suite: Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1705129658487.groovy: 56: expecting anything but ''\n''; got it anyway @ line 56, column 67.
+   sword: $Password không hợp lệ.
+                                 ^
+
+1 error]]></system-out>
+      <system-err><![CDATA[2024-01-13 16:07:38 - [TEST_SUITE][ERROR] - New Test Suite: Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1705129658487.groovy: 56: expecting anything but ''\n''; got it anyway @ line 56, column 67.
+   sword: $Password không hợp lệ.
+                                 ^
+
+1 error]]></system-err>
+   </testsuite>
+</testsuites>

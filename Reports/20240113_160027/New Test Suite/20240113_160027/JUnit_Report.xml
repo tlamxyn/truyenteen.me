@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="142.647" tests="8" failures="1" errors="0">
+   <testsuite name="New Test Suite" tests="8" failures="1" errors="0" time="142.647" skipped="0" timestamp="2024-01-13 16:00:31" hostname="DELL - DESKTOP-T835F3C" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\MONHOC\\DoAnTotNghiep_2\\automation_2\\truyenteen.me\\Reports\\20240113_160027\\New Test Suite\\20240113_160027"/>
+         <property name="logFiles" value="D:\\MONHOC\\DoAnTotNghiep_2\\automation_2\\truyenteen.me\\Reports\\20240113_160027\\New Test Suite\\20240113_160027\\execution0.log"/>
+         <property name="attachments" value="D:\\MONHOC\\DoAnTotNghiep_2\\automation_2\\truyenteen.me\\Reports\\20240113_160027\\New Test Suite\\20240113_160027\\1705129242026.png"/>
+         <property name="hostName" value="DELL - DESKTOP-T835F3C"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.85.1"/>
+         <property name="sessionId" value="3a69754af3abf927472baabdeccff142"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" time="11.044" classname="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" status="FAILED">
+         <failure type="FAILED" message="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/NavigationBar/link_DangNhap'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at DangNhap_DieuKienEmailVaPassword_DapUng.run(DangNhap_DieuKienEmailVaPassword_DapUng:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1705129227703.run(TempTestSuite1705129227703.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=120.0.6099.201)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-T835F3C', ip: '192.168.85.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.201, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62356}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 14de447fb74797a23a3051afefb62c0b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2024-01-13 16:00:31 - [TEST_CASE][FAILED] - Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng: Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/NavigationBar/link_DangNhap'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at DangNhap_DieuKienEmailVaPassword_DapUng.run(DangNhap_DieuKienEmailVaPassword_DapUng:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1705129227703.run(TempTestSuite1705129227703.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=120.0.6099.201)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-T835F3C', ip: '192.168.85.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.201, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62356}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 14de447fb74797a23a3051afefb62c0b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2024-01-13 16:00:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-13 16:00:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-13 16:00:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-13 16:00:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-13 16:00:34 - [TEST_STEP][PASSED] - navigateToUrl("https://truyenteen.me/"): Navigate to 'https://truyenteen.me/' successfully
+
+2024-01-13 16:00:38 - [MESSAGE][PASSED] - Navigate to 'https://truyenteen.me/' successfully
+
+2024-01-13 16:00:38 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_TrangChu/button_TurnAdOff"), 10): Object 'Object Repository/Page_TrangChu/button_TurnAdOff' is present
+
+2024-01-13 16:00:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_TrangChu/button_TurnAdOff' is present
+
+2024-01-13 16:00:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TrangChu/button_TurnAdOff")): Object: 'Object Repository/Page_TrangChu/button_TurnAdOff' is clicked on
+
+2024-01-13 16:00:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TrangChu/button_TurnAdOff' is clicked on
+
+2024-01-13 16:00:40 - [TEST_STEP][PASSED] - mouseOver(findTestObject("NavigationBar/dropdown_iconuser")): Object: 'Object Repository/NavigationBar/dropdown_iconuser' is hovered
+
+2024-01-13 16:00:41 - [MESSAGE][PASSED] - Object: 'Object Repository/NavigationBar/dropdown_iconuser' is hovered
+
+2024-01-13 16:00:41 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("NavigationBar/link_DangNhap"), 10): Object 'Object Repository/NavigationBar/link_DangNhap' is present
+
+2024-01-13 16:00:41 - [MESSAGE][PASSED] - Object 'Object Repository/NavigationBar/link_DangNhap' is present
+
+2024-01-13 16:00:41 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/NavigationBar/link_DangNhap")): Unable to click on object 'Object Repository/NavigationBar/link_DangNhap' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/NavigationBar/link_DangNhap'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at DangNhap_DieuKienEmailVaPassword_DapUng.run(DangNhap_DieuKienEmailVaPassword_DapUng:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1705129227703.run(TempTestSuite1705129227703.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=120.0.6099.201)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-T835F3C', ip: '192.168.85.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.201, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62356}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 14de447fb74797a23a3051afefb62c0b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1705118172959.run(Script1705118172959.groovy:32)
+	... 13 more
+)
+
+2024-01-13 16:00:42 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/NavigationBar/link_DangNhap' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/NavigationBar/link_DangNhap'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at DangNhap_DieuKienEmailVaPassword_DapUng.run(DangNhap_DieuKienEmailVaPassword_DapUng:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1705129227703.run(TempTestSuite1705129227703.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=120.0.6099.201)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-T835F3C', ip: '192.168.85.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.201, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62356}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 14de447fb74797a23a3051afefb62c0b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1705118172959.run(Script1705118172959.groovy:32)
+	... 13 more
+)
+[[ATTACHMENT|D:\\MONHOC\\DoAnTotNghiep_2\\automation_2\\truyenteen.me\\Reports\\20240113_160027\\New Test Suite\\20240113_160027\\1705129242026.png]]]]></system-out>
+         <system-err><![CDATA[2024-01-13 16:00:31 - [TEST_CASE][FAILED] - Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng: Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/NavigationBar/link_DangNhap'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at DangNhap_DieuKienEmailVaPassword_DapUng.run(DangNhap_DieuKienEmailVaPassword_DapUng:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1705129227703.run(TempTestSuite1705129227703.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=120.0.6099.201)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-T835F3C', ip: '192.168.85.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.201, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62356}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 14de447fb74797a23a3051afefb62c0b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" time="18.103" classname="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" status="PASSED">
+         <system-out><![CDATA[2024-01-13 16:00:42 - [TEST_CASE][PASSED] - Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng: Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng
+
+2024-01-13 16:00:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-13 16:00:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2024-01-13 16:00:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-13 16:00:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-13 16:00:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-13 16:00:44 - [TEST_STEP][PASSED] - navigateToUrl("https://truyenteen.me/"): Navigate to 'https://truyenteen.me/' successfully
+
+2024-01-13 16:00:49 - [MESSAGE][PASSED] - Navigate to 'https://truyenteen.me/' successfully
+
+2024-01-13 16:00:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_TrangChu/button_TurnAdOff"), 10): Object 'Object Repository/Page_TrangChu/button_TurnAdOff' is present
+
+2024-01-13 16:00:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_TrangChu/button_TurnAdOff' is present
+
+2024-01-13 16:00:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TrangChu/button_TurnAdOff")): Object: 'Object Repository/Page_TrangChu/button_TurnAdOff' is clicked on
+
+2024-01-13 16:00:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TrangChu/button_TurnAdOff' is clicked on
+
+2024-01-13 16:00:51 - [TEST_STEP][PASSED] - mouseOver(findTestObject("NavigationBar/dropdown_iconuser")): Object: 'Object Repository/NavigationBar/dropdown_iconuser' is hovered
+
+2024-01-13 16:00:52 - [MESSAGE][PASSED] - Object: 'Object Repository/NavigationBar/dropdown_iconuser' is hovered
+
+2024-01-13 16:00:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("NavigationBar/link_DangNhap"), 10): Object 'Object Repository/NavigationBar/link_DangNhap' is present
+
+2024-01-13 16:00:52 - [MESSAGE][PASSED] - Object 'Object Repository/NavigationBar/link_DangNhap' is present
+
+2024-01-13 16:00:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavigationBar/link_DangNhap")): Object: 'Object Repository/NavigationBar/link_DangNhap' is clicked on
+
+2024-01-13 16:00:53 - [MESSAGE][PASSED] - Object: 'Object Repository/NavigationBar/link_DangNhap' is clicked on
+
+2024-01-13 16:00:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DangNhap/input_email"), Email): Text 'tuanle0903541031@gmail.com' is set on object 'Object Repository/Page_DangNhap/input_email'
+
+2024-01-13 16:00:55 - [MESSAGE][PASSED] - Text 'tuanle0903541031@gmail.com' is set on object 'Object Repository/Page_DangNhap/input_email'
+
+2024-01-13 16:00:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DangNhap/input_password"), Password): Text 'P@ssword1' is set on object 'Object Repository/Page_DangNhap/input_password'
+
+2024-01-13 16:00:56 - [MESSAGE][PASSED] - Text 'P@ssword1' is set on object 'Object Repository/Page_DangNhap/input_password'
+
+2024-01-13 16:00:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DangNhap/button_DangNhap")): Object: 'Object Repository/Page_DangNhap/button_DangNhap' is clicked on
+
+2024-01-13 16:00:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DangNhap/button_DangNhap' is clicked on
+
+2024-01-13 16:00:57 - [TEST_STEP][PASSED] - successLogin = waitForElementVisible(findTestObject("Page_TrangChu/button_TurnAdOff"), 5): Object 'Object Repository/Page_TrangChu/button_TurnAdOff' is visible
+
+2024-01-13 16:00:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_TrangChu/button_TurnAdOff' is visible
+
+2024-01-13 16:00:58 - [TEST_STEP][PASSED] - listOfCorrectAccount = GoodList.getData(): null
+
+2024-01-13 16:00:58 - [TEST_STEP][PASSED] - if (successLogin): null
+
+2024-01-13 16:00:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TrangChu/button_TurnAdOff")): Object: 'Object Repository/Page_TrangChu/button_TurnAdOff' is clicked on
+
+2024-01-13 16:00:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TrangChu/button_TurnAdOff' is clicked on
+
+2024-01-13 16:00:59 - [TEST_STEP][PASSED] - mouseOver(findTestObject("NavigationBar/dropdown_iconuser")): Object: 'Object Repository/NavigationBar/dropdown_iconuser' is hovered
+
+2024-01-13 16:01:00 - [MESSAGE][PASSED] - Object: 'Object Repository/NavigationBar/dropdown_iconuser' is hovered
+
+2024-01-13 16:01:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("NavigationBar/link_ThongTinUser"), 5): Object 'Object Repository/NavigationBar/link_ThongTinUser' is present
+
+2024-01-13 16:01:00 - [MESSAGE][PASSED] - Object 'Object Repository/NavigationBar/link_ThongTinUser' is present
+
+2024-01-13 16:01:00 - [TEST_STEP][PASSED] - validAccount = listOfCorrectAccount.find({ java.lang.Object e -> ... }): null
+
+2024-01-13 16:01:00 - [TEST_STEP][PASSED] - if (!(validAccount)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" time="19.112" classname="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" status="PASSED">
+         <system-out><![CDATA[2024-01-13 16:01:00 - [TEST_CASE][PASSED] - Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng: Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng
+
+2024-01-13 16:01:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-13 16:01:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2024-01-13 16:01:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-13 16:01:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-13 16:01:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-13 16:01:02 - [TEST_STEP][PASSED] - navigateToUrl("https://truyenteen.me/"): Navigate to 'https://truyenteen.me/' successfully
+
+2024-01-13 16:01:07 - [MESSAGE][PASSED] - Navigate to 'https://truyenteen.me/' successfully
+
+2024-01-13 16:01:07 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_TrangChu/button_TurnAdOff"), 10): Object 'Object Repository/Page_TrangChu/button_TurnAdOff' is present
+
+2024-01-13 16:01:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_TrangChu/button_TurnAdOff' is present
+
+2024-01-13 16:01:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TrangChu/button_TurnAdOff")): Object: 'Object Repository/Page_TrangChu/button_TurnAdOff' is clicked on
+
+2024-01-13 16:01:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TrangChu/button_TurnAdOff' is clicked on
+
+2024-01-13 16:01:08 - [TEST_STEP][PASSED] - mouseOver(findTestObject("NavigationBar/dropdown_iconuser")): Object: 'Object Repository/NavigationBar/dropdown_iconuser' is hovered
+
+2024-01-13 16:01:09 - [MESSAGE][PASSED] - Object: 'Object Repository/NavigationBar/dropdown_iconuser' is hovered
+
+2024-01-13 16:01:09 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("NavigationBar/link_DangNhap"), 10): Object 'Object Repository/NavigationBar/link_DangNhap' is present
+
+2024-01-13 16:01:10 - [MESSAGE][PASSED] - Object 'Object Repository/NavigationBar/link_DangNhap' is present
+
+2024-01-13 16:01:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavigationBar/link_DangNhap")): Object: 'Object Repository/NavigationBar/link_DangNhap' is clicked on
+
+2024-01-13 16:01:10 - [MESSAGE][PASSED] - Object: 'Object Repository/NavigationBar/link_DangNhap' is clicked on
+
+2024-01-13 16:01:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DangNhap/input_email"), Email): Text 'tuanle0903541031@gmail.com' is set on object 'Object Repository/Page_DangNhap/input_email'
+
+2024-01-13 16:01:12 - [MESSAGE][PASSED] - Text 'tuanle0903541031@gmail.com' is set on object 'Object Repository/Page_DangNhap/input_email'
+
+2024-01-13 16:01:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DangNhap/input_password"), Password): Text '' is set on object 'Object Repository/Page_DangNhap/input_password'
+
+2024-01-13 16:01:13 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_DangNhap/input_password'
+
+2024-01-13 16:01:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DangNhap/button_DangNhap")): Object: 'Object Repository/Page_DangNhap/button_DangNhap' is clicked on
+
+2024-01-13 16:01:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DangNhap/button_DangNhap' is clicked on
+
+2024-01-13 16:01:13 - [TEST_STEP][PASSED] - successLogin = waitForElementVisible(findTestObject("Page_TrangChu/button_TurnAdOff"), 5): Object 'Object Repository/Page_TrangChu/button_TurnAdOff' is not visible after 5 second(s)
+
+2024-01-13 16:01:19 - [MESSAGE][WARNING] - Object 'Object Repository/Page_TrangChu/button_TurnAdOff' is not visible after 5 second(s)
+
+2024-01-13 16:01:19 - [TEST_STEP][PASSED] - listOfCorrectAccount = GoodList.getData(): null
+
+2024-01-13 16:01:19 - [TEST_STEP][PASSED] - if (successLogin): null
+
+2024-01-13 16:01:19 - [TEST_STEP][PASSED] - else: null
+
+2024-01-13 16:01:19 - [TEST_STEP][PASSED] - validAccount = listOfCorrectAccount.find({ java.lang.Object e -> ... }): null
+
+2024-01-13 16:01:19 - [TEST_STEP][PASSED] - if (validAccount): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" time="19.418" classname="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" status="PASSED">
+         <system-out><![CDATA[2024-01-13 16:01:19 - [TEST_CASE][PASSED] - Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng: Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng
+
+2024-01-13 16:01:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-13 16:01:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2024-01-13 16:01:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-13 16:01:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-13 16:01:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-13 16:01:22 - [TEST_STEP][PASSED] - navigateToUrl("https://truyenteen.me/"): Navigate to 'https://truyenteen.me/' successfully
+
+2024-01-13 16:01:26 - [MESSAGE][PASSED] - Navigate to 'https://truyenteen.me/' successfully
+
+2024-01-13 16:01:26 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_TrangChu/button_TurnAdOff"), 10): Object 'Object Repository/Page_TrangChu/button_TurnAdOff' is present
+
+2024-01-13 16:01:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_TrangChu/button_TurnAdOff' is present
+
+2024-01-13 16:01:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TrangChu/button_TurnAdOff")): Object: 'Object Repository/Page_TrangChu/button_TurnAdOff' is clicked on
+
+2024-01-13 16:01:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TrangChu/button_TurnAdOff' is clicked on
+
+2024-01-13 16:01:28 - [TEST_STEP][PASSED] - mouseOver(findTestObject("NavigationBar/dropdown_iconuser")): Object: 'Object Repository/NavigationBar/dropdown_iconuser' is hovered
+
+2024-01-13 16:01:29 - [MESSAGE][PASSED] - Object: 'Object Repository/NavigationBar/dropdown_iconuser' is hovered
+
+2024-01-13 16:01:29 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("NavigationBar/link_DangNhap"), 10): Object 'Object Repository/NavigationBar/link_DangNhap' is present
+
+2024-01-13 16:01:29 - [MESSAGE][PASSED] - Object 'Object Repository/NavigationBar/link_DangNhap' is present
+
+2024-01-13 16:01:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavigationBar/link_DangNhap")): Object: 'Object Repository/NavigationBar/link_DangNhap' is clicked on
+
+2024-01-13 16:01:30 - [MESSAGE][PASSED] - Object: 'Object Repository/NavigationBar/link_DangNhap' is clicked on
+
+2024-01-13 16:01:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DangNhap/input_email"), Email): Text '' is set on object 'Object Repository/Page_DangNhap/input_email'
+
+2024-01-13 16:01:31 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_DangNhap/input_email'
+
+2024-01-13 16:01:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DangNhap/input_password"), Password): Text 'P@ssword1' is set on object 'Object Repository/Page_DangNhap/input_password'
+
+2024-01-13 16:01:32 - [MESSAGE][PASSED] - Text 'P@ssword1' is set on object 'Object Repository/Page_DangNhap/input_password'
+
+2024-01-13 16:01:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DangNhap/button_DangNhap")): Object: 'Object Repository/Page_DangNhap/button_DangNhap' is clicked on
+
+2024-01-13 16:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DangNhap/button_DangNhap' is clicked on
+
+2024-01-13 16:01:33 - [TEST_STEP][PASSED] - successLogin = waitForElementVisible(findTestObject("Page_TrangChu/button_TurnAdOff"), 5): Object 'Object Repository/Page_TrangChu/button_TurnAdOff' is not visible after 5 second(s)
+
+2024-01-13 16:01:39 - [MESSAGE][WARNING] - Object 'Object Repository/Page_TrangChu/button_TurnAdOff' is not visible after 5 second(s)
+
+2024-01-13 16:01:39 - [TEST_STEP][PASSED] - listOfCorrectAccount = GoodList.getData(): null
+
+2024-01-13 16:01:39 - [TEST_STEP][PASSED] - if (successLogin): null
+
+2024-01-13 16:01:39 - [TEST_STEP][PASSED] - else: null
+
+2024-01-13 16:01:39 - [TEST_STEP][PASSED] - validAccount = listOfCorrectAccount.find({ java.lang.Object e -> ... }): null
+
+2024-01-13 16:01:39 - [TEST_STEP][PASSED] - if (validAccount): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" time="19.37" classname="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" status="PASSED">
+         <system-out><![CDATA[2024-01-13 16:01:39 - [TEST_CASE][PASSED] - Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng: Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng
+
+2024-01-13 16:01:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-13 16:01:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2024-01-13 16:01:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-13 16:01:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-13 16:01:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-13 16:01:41 - [TEST_STEP][PASSED] - navigateToUrl("https://truyenteen.me/"): Navigate to 'https://truyenteen.me/' successfully
+
+2024-01-13 16:01:45 - [MESSAGE][PASSED] - Navigate to 'https://truyenteen.me/' successfully
+
+2024-01-13 16:01:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_TrangChu/button_TurnAdOff"), 10): Object 'Object Repository/Page_TrangChu/button_TurnAdOff' is present
+
+2024-01-13 16:01:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_TrangChu/button_TurnAdOff' is present
+
+2024-01-13 16:01:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TrangChu/button_TurnAdOff")): Object: 'Object Repository/Page_TrangChu/button_TurnAdOff' is clicked on
+
+2024-01-13 16:01:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TrangChu/button_TurnAdOff' is clicked on
+
+2024-01-13 16:01:46 - [TEST_STEP][PASSED] - mouseOver(findTestObject("NavigationBar/dropdown_iconuser")): Object: 'Object Repository/NavigationBar/dropdown_iconuser' is hovered
+
+2024-01-13 16:01:47 - [MESSAGE][PASSED] - Object: 'Object Repository/NavigationBar/dropdown_iconuser' is hovered
+
+2024-01-13 16:01:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("NavigationBar/link_DangNhap"), 10): Object 'Object Repository/NavigationBar/link_DangNhap' is present
+
+2024-01-13 16:01:48 - [MESSAGE][PASSED] - Object 'Object Repository/NavigationBar/link_DangNhap' is present
+
+2024-01-13 16:01:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavigationBar/link_DangNhap")): Object: 'Object Repository/NavigationBar/link_DangNhap' is clicked on
+
+2024-01-13 16:01:48 - [MESSAGE][PASSED] - Object: 'Object Repository/NavigationBar/link_DangNhap' is clicked on
+
+2024-01-13 16:01:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DangNhap/input_email"), Email): Text 'tuanle09035410@gmail.com' is set on object 'Object Repository/Page_DangNhap/input_email'
+
+2024-01-13 16:01:50 - [MESSAGE][PASSED] - Text 'tuanle09035410@gmail.com' is set on object 'Object Repository/Page_DangNhap/input_email'
+
+2024-01-13 16:01:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DangNhap/input_password"), Password): Text 'P@ssword1' is set on object 'Object Repository/Page_DangNhap/input_password'
+
+2024-01-13 16:01:51 - [MESSAGE][PASSED] - Text 'P@ssword1' is set on object 'Object Repository/Page_DangNhap/input_password'
+
+2024-01-13 16:01:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DangNhap/button_DangNhap")): Object: 'Object Repository/Page_DangNhap/button_DangNhap' is clicked on
+
+2024-01-13 16:01:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DangNhap/button_DangNhap' is clicked on
+
+2024-01-13 16:01:52 - [TEST_STEP][PASSED] - successLogin = waitForElementVisible(findTestObject("Page_TrangChu/button_TurnAdOff"), 5): Object 'Object Repository/Page_TrangChu/button_TurnAdOff' is not visible after 5 second(s)
+
+2024-01-13 16:01:58 - [MESSAGE][WARNING] - Object 'Object Repository/Page_TrangChu/button_TurnAdOff' is not visible after 5 second(s)
+
+2024-01-13 16:01:58 - [TEST_STEP][PASSED] - listOfCorrectAccount = GoodList.getData(): null
+
+2024-01-13 16:01:58 - [TEST_STEP][PASSED] - if (successLogin): null
+
+2024-01-13 16:01:58 - [TEST_STEP][PASSED] - else: null
+
+2024-01-13 16:01:58 - [TEST_STEP][PASSED] - validAccount = listOfCorrectAccount.find({ java.lang.Object e -> ... }): null
+
+2024-01-13 16:01:58 - [TEST_STEP][PASSED] - if (validAccount): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" time="18.757" classname="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" status="PASSED">
+         <system-out><![CDATA[2024-01-13 16:01:58 - [TEST_CASE][PASSED] - Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng: Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng
+
+2024-01-13 16:01:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-13 16:01:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2024-01-13 16:01:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-13 16:01:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-13 16:02:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-13 16:02:00 - [TEST_STEP][PASSED] - navigateToUrl("https://truyenteen.me/"): Navigate to 'https://truyenteen.me/' successfully
+
+2024-01-13 16:02:04 - [MESSAGE][PASSED] - Navigate to 'https://truyenteen.me/' successfully
+
+2024-01-13 16:02:04 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_TrangChu/button_TurnAdOff"), 10): Object 'Object Repository/Page_TrangChu/button_TurnAdOff' is present
+
+2024-01-13 16:02:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_TrangChu/button_TurnAdOff' is present
+
+2024-01-13 16:02:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TrangChu/button_TurnAdOff")): Object: 'Object Repository/Page_TrangChu/button_TurnAdOff' is clicked on
+
+2024-01-13 16:02:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TrangChu/button_TurnAdOff' is clicked on
+
+2024-01-13 16:02:05 - [TEST_STEP][PASSED] - mouseOver(findTestObject("NavigationBar/dropdown_iconuser")): Object: 'Object Repository/NavigationBar/dropdown_iconuser' is hovered
+
+2024-01-13 16:02:06 - [MESSAGE][PASSED] - Object: 'Object Repository/NavigationBar/dropdown_iconuser' is hovered
+
+2024-01-13 16:02:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("NavigationBar/link_DangNhap"), 10): Object 'Object Repository/NavigationBar/link_DangNhap' is present
+
+2024-01-13 16:02:07 - [MESSAGE][PASSED] - Object 'Object Repository/NavigationBar/link_DangNhap' is present
+
+2024-01-13 16:02:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavigationBar/link_DangNhap")): Object: 'Object Repository/NavigationBar/link_DangNhap' is clicked on
+
+2024-01-13 16:02:07 - [MESSAGE][PASSED] - Object: 'Object Repository/NavigationBar/link_DangNhap' is clicked on
+
+2024-01-13 16:02:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DangNhap/input_email"), Email): Text 'tuanle0903541031@gmail.com' is set on object 'Object Repository/Page_DangNhap/input_email'
+
+2024-01-13 16:02:09 - [MESSAGE][PASSED] - Text 'tuanle0903541031@gmail.com' is set on object 'Object Repository/Page_DangNhap/input_email'
+
+2024-01-13 16:02:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DangNhap/input_password"), Password): Text 'P@ssword111' is set on object 'Object Repository/Page_DangNhap/input_password'
+
+2024-01-13 16:02:10 - [MESSAGE][PASSED] - Text 'P@ssword111' is set on object 'Object Repository/Page_DangNhap/input_password'
+
+2024-01-13 16:02:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DangNhap/button_DangNhap")): Object: 'Object Repository/Page_DangNhap/button_DangNhap' is clicked on
+
+2024-01-13 16:02:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DangNhap/button_DangNhap' is clicked on
+
+2024-01-13 16:02:11 - [TEST_STEP][PASSED] - successLogin = waitForElementVisible(findTestObject("Page_TrangChu/button_TurnAdOff"), 5): Object 'Object Repository/Page_TrangChu/button_TurnAdOff' is not visible after 5 second(s)
+
+2024-01-13 16:02:17 - [MESSAGE][WARNING] - Object 'Object Repository/Page_TrangChu/button_TurnAdOff' is not visible after 5 second(s)
+
+2024-01-13 16:02:17 - [TEST_STEP][PASSED] - listOfCorrectAccount = GoodList.getData(): null
+
+2024-01-13 16:02:17 - [TEST_STEP][PASSED] - if (successLogin): null
+
+2024-01-13 16:02:17 - [TEST_STEP][PASSED] - else: null
+
+2024-01-13 16:02:17 - [TEST_STEP][PASSED] - validAccount = listOfCorrectAccount.find({ java.lang.Object e -> ... }): null
+
+2024-01-13 16:02:17 - [TEST_STEP][PASSED] - if (validAccount): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" time="18.459" classname="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" status="PASSED">
+         <system-out><![CDATA[2024-01-13 16:02:17 - [TEST_CASE][PASSED] - Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng: Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng
+
+2024-01-13 16:02:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-13 16:02:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2024-01-13 16:02:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-13 16:02:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-13 16:02:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-13 16:02:19 - [TEST_STEP][PASSED] - navigateToUrl("https://truyenteen.me/"): Navigate to 'https://truyenteen.me/' successfully
+
+2024-01-13 16:02:23 - [MESSAGE][PASSED] - Navigate to 'https://truyenteen.me/' successfully
+
+2024-01-13 16:02:23 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_TrangChu/button_TurnAdOff"), 10): Object 'Object Repository/Page_TrangChu/button_TurnAdOff' is present
+
+2024-01-13 16:02:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_TrangChu/button_TurnAdOff' is present
+
+2024-01-13 16:02:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TrangChu/button_TurnAdOff")): Object: 'Object Repository/Page_TrangChu/button_TurnAdOff' is clicked on
+
+2024-01-13 16:02:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TrangChu/button_TurnAdOff' is clicked on
+
+2024-01-13 16:02:24 - [TEST_STEP][PASSED] - mouseOver(findTestObject("NavigationBar/dropdown_iconuser")): Object: 'Object Repository/NavigationBar/dropdown_iconuser' is hovered
+
+2024-01-13 16:02:25 - [MESSAGE][PASSED] - Object: 'Object Repository/NavigationBar/dropdown_iconuser' is hovered
+
+2024-01-13 16:02:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("NavigationBar/link_DangNhap"), 10): Object 'Object Repository/NavigationBar/link_DangNhap' is present
+
+2024-01-13 16:02:26 - [MESSAGE][PASSED] - Object 'Object Repository/NavigationBar/link_DangNhap' is present
+
+2024-01-13 16:02:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavigationBar/link_DangNhap")): Object: 'Object Repository/NavigationBar/link_DangNhap' is clicked on
+
+2024-01-13 16:02:26 - [MESSAGE][PASSED] - Object: 'Object Repository/NavigationBar/link_DangNhap' is clicked on
+
+2024-01-13 16:02:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DangNhap/input_email"), Email): Text 'tuanle0903541031' is set on object 'Object Repository/Page_DangNhap/input_email'
+
+2024-01-13 16:02:28 - [MESSAGE][PASSED] - Text 'tuanle0903541031' is set on object 'Object Repository/Page_DangNhap/input_email'
+
+2024-01-13 16:02:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DangNhap/input_password"), Password): Text 'P@ssword1' is set on object 'Object Repository/Page_DangNhap/input_password'
+
+2024-01-13 16:02:29 - [MESSAGE][PASSED] - Text 'P@ssword1' is set on object 'Object Repository/Page_DangNhap/input_password'
+
+2024-01-13 16:02:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DangNhap/button_DangNhap")): Object: 'Object Repository/Page_DangNhap/button_DangNhap' is clicked on
+
+2024-01-13 16:02:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DangNhap/button_DangNhap' is clicked on
+
+2024-01-13 16:02:29 - [TEST_STEP][PASSED] - successLogin = waitForElementVisible(findTestObject("Page_TrangChu/button_TurnAdOff"), 5): Object 'Object Repository/Page_TrangChu/button_TurnAdOff' is not visible after 5 second(s)
+
+2024-01-13 16:02:35 - [MESSAGE][WARNING] - Object 'Object Repository/Page_TrangChu/button_TurnAdOff' is not visible after 5 second(s)
+
+2024-01-13 16:02:35 - [TEST_STEP][PASSED] - listOfCorrectAccount = GoodList.getData(): null
+
+2024-01-13 16:02:35 - [TEST_STEP][PASSED] - if (successLogin): null
+
+2024-01-13 16:02:35 - [TEST_STEP][PASSED] - else: null
+
+2024-01-13 16:02:35 - [TEST_STEP][PASSED] - validAccount = listOfCorrectAccount.find({ java.lang.Object e -> ... }): null
+
+2024-01-13 16:02:35 - [TEST_STEP][PASSED] - if (validAccount): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" time="17.742" classname="Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng" status="PASSED">
+         <system-out><![CDATA[2024-01-13 16:02:35 - [TEST_CASE][PASSED] - Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng: Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng
+
+2024-01-13 16:02:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-13 16:02:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2024-01-13 16:02:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-13 16:02:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-13 16:02:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-13 16:02:38 - [TEST_STEP][PASSED] - navigateToUrl("https://truyenteen.me/"): Navigate to 'https://truyenteen.me/' successfully
+
+2024-01-13 16:02:42 - [MESSAGE][PASSED] - Navigate to 'https://truyenteen.me/' successfully
+
+2024-01-13 16:02:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_TrangChu/button_TurnAdOff"), 10): Object 'Object Repository/Page_TrangChu/button_TurnAdOff' is present
+
+2024-01-13 16:02:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_TrangChu/button_TurnAdOff' is present
+
+2024-01-13 16:02:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TrangChu/button_TurnAdOff")): Object: 'Object Repository/Page_TrangChu/button_TurnAdOff' is clicked on
+
+2024-01-13 16:02:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TrangChu/button_TurnAdOff' is clicked on
+
+2024-01-13 16:02:43 - [TEST_STEP][PASSED] - mouseOver(findTestObject("NavigationBar/dropdown_iconuser")): Object: 'Object Repository/NavigationBar/dropdown_iconuser' is hovered
+
+2024-01-13 16:02:44 - [MESSAGE][PASSED] - Object: 'Object Repository/NavigationBar/dropdown_iconuser' is hovered
+
+2024-01-13 16:02:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("NavigationBar/link_DangNhap"), 10): Object 'Object Repository/NavigationBar/link_DangNhap' is present
+
+2024-01-13 16:02:44 - [MESSAGE][PASSED] - Object 'Object Repository/NavigationBar/link_DangNhap' is present
+
+2024-01-13 16:02:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NavigationBar/link_DangNhap")): Object: 'Object Repository/NavigationBar/link_DangNhap' is clicked on
+
+2024-01-13 16:02:45 - [MESSAGE][PASSED] - Object: 'Object Repository/NavigationBar/link_DangNhap' is clicked on
+
+2024-01-13 16:02:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DangNhap/input_email"), Email): Text '' is set on object 'Object Repository/Page_DangNhap/input_email'
+
+2024-01-13 16:02:46 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_DangNhap/input_email'
+
+2024-01-13 16:02:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DangNhap/input_password"), Password): Text '' is set on object 'Object Repository/Page_DangNhap/input_password'
+
+2024-01-13 16:02:47 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_DangNhap/input_password'
+
+2024-01-13 16:02:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DangNhap/button_DangNhap")): Object: 'Object Repository/Page_DangNhap/button_DangNhap' is clicked on
+
+2024-01-13 16:02:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DangNhap/button_DangNhap' is clicked on
+
+2024-01-13 16:02:47 - [TEST_STEP][PASSED] - successLogin = waitForElementVisible(findTestObject("Page_TrangChu/button_TurnAdOff"), 5): Object 'Object Repository/Page_TrangChu/button_TurnAdOff' is not visible after 5 second(s)
+
+2024-01-13 16:02:53 - [MESSAGE][WARNING] - Object 'Object Repository/Page_TrangChu/button_TurnAdOff' is not visible after 5 second(s)
+
+2024-01-13 16:02:53 - [TEST_STEP][PASSED] - listOfCorrectAccount = GoodList.getData(): null
+
+2024-01-13 16:02:53 - [TEST_STEP][PASSED] - if (successLogin): null
+
+2024-01-13 16:02:53 - [TEST_STEP][PASSED] - else: null
+
+2024-01-13 16:02:53 - [TEST_STEP][PASSED] - validAccount = listOfCorrectAccount.find({ java.lang.Object e -> ... }): null
+
+2024-01-13 16:02:53 - [TEST_STEP][PASSED] - if (validAccount): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-01-13 16:00:31 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/NavigationBar/link_DangNhap'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at DangNhap_DieuKienEmailVaPassword_DapUng.run(DangNhap_DieuKienEmailVaPassword_DapUng:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1705129227703.run(TempTestSuite1705129227703.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=120.0.6099.201)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-T835F3C', ip: '192.168.85.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.201, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62356}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 14de447fb74797a23a3051afefb62c0b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2024-01-13 16:00:31 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/NavigationBar/link_DangNhap'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at DangNhap_DieuKienEmailVaPassword_DapUng.run(DangNhap_DieuKienEmailVaPassword_DapUng:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1705129227703.run(TempTestSuite1705129227703.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=120.0.6099.201)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-T835F3C', ip: '192.168.85.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.201, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62356}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 14de447fb74797a23a3051afefb62c0b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,122 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 120.0.0.0,,,2024-01-13 16:00:31,2024-01-13 16:02:53,2m - 22.647s,FAILED
+,,,,,,,
+Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng,Chrome 120.0.0.0,,,2024-01-13 16:00:31,2024-01-13 16:00:42,11.044s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-13 16:00:31,2024-01-13 16:00:34,3.093s,PASSED
+"navigateToUrl(""https://truyenteen.me/"")",Chrome 120.0.0.0,,,2024-01-13 16:00:34,2024-01-13 16:00:38,3.906s,PASSED
+"waitForElementPresent(findTestObject(""Page_TrangChu/button_TurnAdOff""), 10)",Chrome 120.0.0.0,,,2024-01-13 16:00:38,2024-01-13 16:00:39,0.802s,PASSED
+"click(findTestObject(""Object Repository/Page_TrangChu/button_TurnAdOff""))",Chrome 120.0.0.0,,,2024-01-13 16:00:39,2024-01-13 16:00:40,0.437s,PASSED
+"mouseOver(findTestObject(""NavigationBar/dropdown_iconuser""))",Chrome 120.0.0.0,,,2024-01-13 16:00:40,2024-01-13 16:00:41,1.056s,PASSED
+"waitForElementPresent(findTestObject(""NavigationBar/link_DangNhap""), 10)",Chrome 120.0.0.0,,,2024-01-13 16:00:41,2024-01-13 16:00:41,0.492s,PASSED
+"click(findTestObject(""Object Repository/NavigationBar/link_DangNhap""))",Chrome 120.0.0.0,,,2024-01-13 16:00:41,2024-01-13 16:00:42,0.756s,FAILED
+,,,,,,,
+Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng,Chrome 120.0.0.0,,,2024-01-13 16:00:42,2024-01-13 16:01:00,18.103s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-13 16:00:42,2024-01-13 16:00:44,2.328s,PASSED
+"navigateToUrl(""https://truyenteen.me/"")",Chrome 120.0.0.0,,,2024-01-13 16:00:44,2024-01-13 16:00:49,5.083s,PASSED
+"waitForElementPresent(findTestObject(""Page_TrangChu/button_TurnAdOff""), 10)",Chrome 120.0.0.0,,,2024-01-13 16:00:49,2024-01-13 16:00:50,0.732s,PASSED
+"click(findTestObject(""Object Repository/Page_TrangChu/button_TurnAdOff""))",Chrome 120.0.0.0,,,2024-01-13 16:00:50,2024-01-13 16:00:51,0.381s,PASSED
+"mouseOver(findTestObject(""NavigationBar/dropdown_iconuser""))",Chrome 120.0.0.0,,,2024-01-13 16:00:51,2024-01-13 16:00:52,1.007s,PASSED
+"waitForElementPresent(findTestObject(""NavigationBar/link_DangNhap""), 10)",Chrome 120.0.0.0,,,2024-01-13 16:00:52,2024-01-13 16:00:52,0.569s,PASSED
+"click(findTestObject(""Object Repository/NavigationBar/link_DangNhap""))",Chrome 120.0.0.0,,,2024-01-13 16:00:52,2024-01-13 16:00:53,0.839s,PASSED
+"setText(findTestObject(""Object Repository/Page_DangNhap/input_email""), Email)",Chrome 120.0.0.0,,,2024-01-13 16:00:53,2024-01-13 16:00:55,1.750s,PASSED
+"setText(findTestObject(""Object Repository/Page_DangNhap/input_password""), Password)",Chrome 120.0.0.0,,,2024-01-13 16:00:55,2024-01-13 16:00:56,0.876s,PASSED
+"click(findTestObject(""Object Repository/Page_DangNhap/button_DangNhap""))",Chrome 120.0.0.0,,,2024-01-13 16:00:56,2024-01-13 16:00:57,1.597s,PASSED
+"successLogin = waitForElementVisible(findTestObject(""Page_TrangChu/button_TurnAdOff""), 5)",Chrome 120.0.0.0,,,2024-01-13 16:00:57,2024-01-13 16:00:58,0.645s,PASSED
+listOfCorrectAccount = GoodList.getData(),Chrome 120.0.0.0,,,2024-01-13 16:00:58,2024-01-13 16:00:58,0.014s,PASSED
+if (successLogin),Chrome 120.0.0.0,,,2024-01-13 16:00:58,2024-01-13 16:01:00,2.243s,PASSED
+,,,,,,,
+Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng,Chrome 120.0.0.0,,,2024-01-13 16:01:00,2024-01-13 16:01:19,19.112s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-13 16:01:00,2024-01-13 16:01:02,2.240s,PASSED
+"navigateToUrl(""https://truyenteen.me/"")",Chrome 120.0.0.0,,,2024-01-13 16:01:02,2024-01-13 16:01:07,4.435s,PASSED
+"waitForElementPresent(findTestObject(""Page_TrangChu/button_TurnAdOff""), 10)",Chrome 120.0.0.0,,,2024-01-13 16:01:07,2024-01-13 16:01:08,0.754s,PASSED
+"click(findTestObject(""Object Repository/Page_TrangChu/button_TurnAdOff""))",Chrome 120.0.0.0,,,2024-01-13 16:01:08,2024-01-13 16:01:08,0.380s,PASSED
+"mouseOver(findTestObject(""NavigationBar/dropdown_iconuser""))",Chrome 120.0.0.0,,,2024-01-13 16:01:08,2024-01-13 16:01:09,1.428s,PASSED
+"waitForElementPresent(findTestObject(""NavigationBar/link_DangNhap""), 10)",Chrome 120.0.0.0,,,2024-01-13 16:01:09,2024-01-13 16:01:10,0.371s,PASSED
+"click(findTestObject(""Object Repository/NavigationBar/link_DangNhap""))",Chrome 120.0.0.0,,,2024-01-13 16:01:10,2024-01-13 16:01:10,0.680s,PASSED
+"setText(findTestObject(""Object Repository/Page_DangNhap/input_email""), Email)",Chrome 120.0.0.0,,,2024-01-13 16:01:10,2024-01-13 16:01:12,1.632s,PASSED
+"setText(findTestObject(""Object Repository/Page_DangNhap/input_password""), Password)",Chrome 120.0.0.0,,,2024-01-13 16:01:12,2024-01-13 16:01:13,0.829s,PASSED
+"click(findTestObject(""Object Repository/Page_DangNhap/button_DangNhap""))",Chrome 120.0.0.0,,,2024-01-13 16:01:13,2024-01-13 16:01:13,0.530s,PASSED
+"successLogin = waitForElementVisible(findTestObject(""Page_TrangChu/button_TurnAdOff""), 5)",Chrome 120.0.0.0,,,2024-01-13 16:01:13,2024-01-13 16:01:19,5.796s,PASSED
+listOfCorrectAccount = GoodList.getData(),Chrome 120.0.0.0,,,2024-01-13 16:01:19,2024-01-13 16:01:19,0.000s,PASSED
+if (successLogin),Chrome 120.0.0.0,,,2024-01-13 16:01:19,2024-01-13 16:01:19,0.001s,PASSED
+else,Chrome 120.0.0.0,,,2024-01-13 16:01:19,2024-01-13 16:01:19,0.004s,PASSED
+,,,,,,,
+Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng,Chrome 120.0.0.0,,,2024-01-13 16:01:19,2024-01-13 16:01:39,19.418s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-13 16:01:19,2024-01-13 16:01:22,2.327s,PASSED
+"navigateToUrl(""https://truyenteen.me/"")",Chrome 120.0.0.0,,,2024-01-13 16:01:22,2024-01-13 16:01:26,4.784s,PASSED
+"waitForElementPresent(findTestObject(""Page_TrangChu/button_TurnAdOff""), 10)",Chrome 120.0.0.0,,,2024-01-13 16:01:26,2024-01-13 16:01:27,0.764s,PASSED
+"click(findTestObject(""Object Repository/Page_TrangChu/button_TurnAdOff""))",Chrome 120.0.0.0,,,2024-01-13 16:01:27,2024-01-13 16:01:28,0.391s,PASSED
+"mouseOver(findTestObject(""NavigationBar/dropdown_iconuser""))",Chrome 120.0.0.0,,,2024-01-13 16:01:28,2024-01-13 16:01:29,1.066s,PASSED
+"waitForElementPresent(findTestObject(""NavigationBar/link_DangNhap""), 10)",Chrome 120.0.0.0,,,2024-01-13 16:01:29,2024-01-13 16:01:29,0.391s,PASSED
+"click(findTestObject(""Object Repository/NavigationBar/link_DangNhap""))",Chrome 120.0.0.0,,,2024-01-13 16:01:29,2024-01-13 16:01:30,0.809s,PASSED
+"setText(findTestObject(""Object Repository/Page_DangNhap/input_email""), Email)",Chrome 120.0.0.0,,,2024-01-13 16:01:30,2024-01-13 16:01:31,1.645s,PASSED
+"setText(findTestObject(""Object Repository/Page_DangNhap/input_password""), Password)",Chrome 120.0.0.0,,,2024-01-13 16:01:31,2024-01-13 16:01:32,0.839s,PASSED
+"click(findTestObject(""Object Repository/Page_DangNhap/button_DangNhap""))",Chrome 120.0.0.0,,,2024-01-13 16:01:32,2024-01-13 16:01:33,0.419s,PASSED
+"successLogin = waitForElementVisible(findTestObject(""Page_TrangChu/button_TurnAdOff""), 5)",Chrome 120.0.0.0,,,2024-01-13 16:01:33,2024-01-13 16:01:39,5.937s,PASSED
+listOfCorrectAccount = GoodList.getData(),Chrome 120.0.0.0,,,2024-01-13 16:01:39,2024-01-13 16:01:39,0.001s,PASSED
+if (successLogin),Chrome 120.0.0.0,,,2024-01-13 16:01:39,2024-01-13 16:01:39,0.000s,PASSED
+else,Chrome 120.0.0.0,,,2024-01-13 16:01:39,2024-01-13 16:01:39,0.001s,PASSED
+,,,,,,,
+Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng,Chrome 120.0.0.0,,,2024-01-13 16:01:39,2024-01-13 16:01:58,19.370s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-13 16:01:39,2024-01-13 16:01:41,2.358s,PASSED
+"navigateToUrl(""https://truyenteen.me/"")",Chrome 120.0.0.0,,,2024-01-13 16:01:41,2024-01-13 16:01:45,3.966s,PASSED
+"waitForElementPresent(findTestObject(""Page_TrangChu/button_TurnAdOff""), 10)",Chrome 120.0.0.0,,,2024-01-13 16:01:45,2024-01-13 16:01:46,0.673s,PASSED
+"click(findTestObject(""Object Repository/Page_TrangChu/button_TurnAdOff""))",Chrome 120.0.0.0,,,2024-01-13 16:01:46,2024-01-13 16:01:46,0.392s,PASSED
+"mouseOver(findTestObject(""NavigationBar/dropdown_iconuser""))",Chrome 120.0.0.0,,,2024-01-13 16:01:46,2024-01-13 16:01:47,1.345s,PASSED
+"waitForElementPresent(findTestObject(""NavigationBar/link_DangNhap""), 10)",Chrome 120.0.0.0,,,2024-01-13 16:01:47,2024-01-13 16:01:48,0.353s,PASSED
+"click(findTestObject(""Object Repository/NavigationBar/link_DangNhap""))",Chrome 120.0.0.0,,,2024-01-13 16:01:48,2024-01-13 16:01:48,0.636s,PASSED
+"setText(findTestObject(""Object Repository/Page_DangNhap/input_email""), Email)",Chrome 120.0.0.0,,,2024-01-13 16:01:48,2024-01-13 16:01:50,1.685s,PASSED
+"setText(findTestObject(""Object Repository/Page_DangNhap/input_password""), Password)",Chrome 120.0.0.0,,,2024-01-13 16:01:50,2024-01-13 16:01:51,0.741s,PASSED
+"click(findTestObject(""Object Repository/Page_DangNhap/button_DangNhap""))",Chrome 120.0.0.0,,,2024-01-13 16:01:51,2024-01-13 16:01:52,1.120s,PASSED
+"successLogin = waitForElementVisible(findTestObject(""Page_TrangChu/button_TurnAdOff""), 5)",Chrome 120.0.0.0,,,2024-01-13 16:01:52,2024-01-13 16:01:58,6.057s,PASSED
+listOfCorrectAccount = GoodList.getData(),Chrome 120.0.0.0,,,2024-01-13 16:01:58,2024-01-13 16:01:58,0.000s,PASSED
+if (successLogin),Chrome 120.0.0.0,,,2024-01-13 16:01:58,2024-01-13 16:01:58,0.000s,PASSED
+else,Chrome 120.0.0.0,,,2024-01-13 16:01:58,2024-01-13 16:01:58,0.002s,PASSED
+,,,,,,,
+Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng,Chrome 120.0.0.0,,,2024-01-13 16:01:58,2024-01-13 16:02:17,18.757s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-13 16:01:58,2024-01-13 16:02:00,2.305s,PASSED
+"navigateToUrl(""https://truyenteen.me/"")",Chrome 120.0.0.0,,,2024-01-13 16:02:00,2024-01-13 16:02:04,3.865s,PASSED
+"waitForElementPresent(findTestObject(""Page_TrangChu/button_TurnAdOff""), 10)",Chrome 120.0.0.0,,,2024-01-13 16:02:04,2024-01-13 16:02:05,0.682s,PASSED
+"click(findTestObject(""Object Repository/Page_TrangChu/button_TurnAdOff""))",Chrome 120.0.0.0,,,2024-01-13 16:02:05,2024-01-13 16:02:05,0.402s,PASSED
+"mouseOver(findTestObject(""NavigationBar/dropdown_iconuser""))",Chrome 120.0.0.0,,,2024-01-13 16:02:05,2024-01-13 16:02:06,0.956s,PASSED
+"waitForElementPresent(findTestObject(""NavigationBar/link_DangNhap""), 10)",Chrome 120.0.0.0,,,2024-01-13 16:02:06,2024-01-13 16:02:07,0.328s,PASSED
+"click(findTestObject(""Object Repository/NavigationBar/link_DangNhap""))",Chrome 120.0.0.0,,,2024-01-13 16:02:07,2024-01-13 16:02:07,0.626s,PASSED
+"setText(findTestObject(""Object Repository/Page_DangNhap/input_email""), Email)",Chrome 120.0.0.0,,,2024-01-13 16:02:07,2024-01-13 16:02:09,1.614s,PASSED
+"setText(findTestObject(""Object Repository/Page_DangNhap/input_password""), Password)",Chrome 120.0.0.0,,,2024-01-13 16:02:09,2024-01-13 16:02:10,0.730s,PASSED
+"click(findTestObject(""Object Repository/Page_DangNhap/button_DangNhap""))",Chrome 120.0.0.0,,,2024-01-13 16:02:10,2024-01-13 16:02:11,1.116s,PASSED
+"successLogin = waitForElementVisible(findTestObject(""Page_TrangChu/button_TurnAdOff""), 5)",Chrome 120.0.0.0,,,2024-01-13 16:02:11,2024-01-13 16:02:17,6.087s,PASSED
+listOfCorrectAccount = GoodList.getData(),Chrome 120.0.0.0,,,2024-01-13 16:02:17,2024-01-13 16:02:17,0.000s,PASSED
+if (successLogin),Chrome 120.0.0.0,,,2024-01-13 16:02:17,2024-01-13 16:02:17,0.001s,PASSED
+else,Chrome 120.0.0.0,,,2024-01-13 16:02:17,2024-01-13 16:02:17,0.001s,PASSED
+,,,,,,,
+Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng,Chrome 120.0.0.0,,,2024-01-13 16:02:17,2024-01-13 16:02:35,18.459s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-13 16:02:17,2024-01-13 16:02:19,2.337s,PASSED
+"navigateToUrl(""https://truyenteen.me/"")",Chrome 120.0.0.0,,,2024-01-13 16:02:19,2024-01-13 16:02:23,3.663s,PASSED
+"waitForElementPresent(findTestObject(""Page_TrangChu/button_TurnAdOff""), 10)",Chrome 120.0.0.0,,,2024-01-13 16:02:23,2024-01-13 16:02:24,1.073s,PASSED
+"click(findTestObject(""Object Repository/Page_TrangChu/button_TurnAdOff""))",Chrome 120.0.0.0,,,2024-01-13 16:02:24,2024-01-13 16:02:24,0.391s,PASSED
+"mouseOver(findTestObject(""NavigationBar/dropdown_iconuser""))",Chrome 120.0.0.0,,,2024-01-13 16:02:24,2024-01-13 16:02:25,1.048s,PASSED
+"waitForElementPresent(findTestObject(""NavigationBar/link_DangNhap""), 10)",Chrome 120.0.0.0,,,2024-01-13 16:02:25,2024-01-13 16:02:26,0.344s,PASSED
+"click(findTestObject(""Object Repository/NavigationBar/link_DangNhap""))",Chrome 120.0.0.0,,,2024-01-13 16:02:26,2024-01-13 16:02:26,0.671s,PASSED
+"setText(findTestObject(""Object Repository/Page_DangNhap/input_email""), Email)",Chrome 120.0.0.0,,,2024-01-13 16:02:26,2024-01-13 16:02:28,1.614s,PASSED
+"setText(findTestObject(""Object Repository/Page_DangNhap/input_password""), Password)",Chrome 120.0.0.0,,,2024-01-13 16:02:28,2024-01-13 16:02:29,0.720s,PASSED
+"click(findTestObject(""Object Repository/Page_DangNhap/button_DangNhap""))",Chrome 120.0.0.0,,,2024-01-13 16:02:29,2024-01-13 16:02:29,0.578s,PASSED
+"successLogin = waitForElementVisible(findTestObject(""Page_TrangChu/button_TurnAdOff""), 5)",Chrome 120.0.0.0,,,2024-01-13 16:02:29,2024-01-13 16:02:35,5.985s,PASSED
+listOfCorrectAccount = GoodList.getData(),Chrome 120.0.0.0,,,2024-01-13 16:02:35,2024-01-13 16:02:35,0.000s,PASSED
+if (successLogin),Chrome 120.0.0.0,,,2024-01-13 16:02:35,2024-01-13 16:02:35,0.000s,PASSED
+else,Chrome 120.0.0.0,,,2024-01-13 16:02:35,2024-01-13 16:02:35,0.000s,PASSED
+,,,,,,,
+Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng,Chrome 120.0.0.0,,,2024-01-13 16:02:35,2024-01-13 16:02:53,17.742s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-13 16:02:35,2024-01-13 16:02:38,2.651s,PASSED
+"navigateToUrl(""https://truyenteen.me/"")",Chrome 120.0.0.0,,,2024-01-13 16:02:38,2024-01-13 16:02:42,3.610s,PASSED
+"waitForElementPresent(findTestObject(""Page_TrangChu/button_TurnAdOff""), 10)",Chrome 120.0.0.0,,,2024-01-13 16:02:42,2024-01-13 16:02:42,0.743s,PASSED
+"click(findTestObject(""Object Repository/Page_TrangChu/button_TurnAdOff""))",Chrome 120.0.0.0,,,2024-01-13 16:02:42,2024-01-13 16:02:43,0.395s,PASSED
+"mouseOver(findTestObject(""NavigationBar/dropdown_iconuser""))",Chrome 120.0.0.0,,,2024-01-13 16:02:43,2024-01-13 16:02:44,0.978s,PASSED
+"waitForElementPresent(findTestObject(""NavigationBar/link_DangNhap""), 10)",Chrome 120.0.0.0,,,2024-01-13 16:02:44,2024-01-13 16:02:44,0.346s,PASSED
+"click(findTestObject(""Object Repository/NavigationBar/link_DangNhap""))",Chrome 120.0.0.0,,,2024-01-13 16:02:44,2024-01-13 16:02:45,0.613s,PASSED
+"setText(findTestObject(""Object Repository/Page_DangNhap/input_email""), Email)",Chrome 120.0.0.0,,,2024-01-13 16:02:45,2024-01-13 16:02:46,1.499s,PASSED
+"setText(findTestObject(""Object Repository/Page_DangNhap/input_password""), Password)",Chrome 120.0.0.0,,,2024-01-13 16:02:46,2024-01-13 16:02:47,0.692s,PASSED
+"click(findTestObject(""Object Repository/Page_DangNhap/button_DangNhap""))",Chrome 120.0.0.0,,,2024-01-13 16:02:47,2024-01-13 16:02:47,0.412s,PASSED
+"successLogin = waitForElementVisible(findTestObject(""Page_TrangChu/button_TurnAdOff""), 5)",Chrome 120.0.0.0,,,2024-01-13 16:02:47,2024-01-13 16:02:53,5.776s,PASSED
+listOfCorrectAccount = GoodList.getData(),Chrome 120.0.0.0,,,2024-01-13 16:02:53,2024-01-13 16:02:53,0.000s,PASSED
+if (successLogin),Chrome 120.0.0.0,,,2024-01-13 16:02:53,2024-01-13 16:02:53,0.001s,PASSED
+else,Chrome 120.0.0.0,,,2024-01-13 16:02:53,2024-01-13 16:02:53,0.001s,PASSED

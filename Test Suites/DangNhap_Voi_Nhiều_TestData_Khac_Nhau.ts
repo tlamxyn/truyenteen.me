@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>DangNhap_Voi_Nhiều_TestData_Khac_Nhau</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>e175b6a1-b6ca-486f-97e3-7837747cc890</testSuiteGuid>
+   <testCaseLink>
+      <guid>0a902f5f-b1fc-4fff-8ba9-0e79c82b11ac</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ea6bb46f-2099-4800-a146-07ee28b354b8</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DangNhap_ThongTinDung</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>ea6bb46f-2099-4800-a146-07ee28b354b8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Email</value>
+         <variableId>06a47934-7306-4092-960a-d021f5c080aa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ea6bb46f-2099-4800-a146-07ee28b354b8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>e6c5246a-a355-4ced-9bc0-1ce8842c8c0f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>060600f6-dafb-4f67-8e76-faec422f25b6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9131bb1a-abc9-43e0-aa83-b6d29afe415b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>9243b293-a58f-48e3-88d3-a2266a65cec0</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DangNhap_HonHopDungSai</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>9243b293-a58f-48e3-88d3-a2266a65cec0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>06a47934-7306-4092-960a-d021f5c080aa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9243b293-a58f-48e3-88d3-a2266a65cec0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>e6c5246a-a355-4ced-9bc0-1ce8842c8c0f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>060600f6-dafb-4f67-8e76-faec422f25b6</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

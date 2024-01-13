@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 120.0.0.0,,,2024-01-13 13:47:08,2024-01-13 13:47:29,20.578s,PASSED
+,,,,,,,
+Test Cases/DangNhap/DangNhap_DieuKienEmailVaPassword_DapUng,Chrome 120.0.0.0,,,2024-01-13 13:47:09,2024-01-13 13:47:29,20.185s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-13 13:47:09,2024-01-13 13:47:12,3.088s,PASSED
+"navigateToUrl(""https://truyenteen.me/"")",Chrome 120.0.0.0,,,2024-01-13 13:47:12,2024-01-13 13:47:17,4.707s,PASSED
+"waitForElementPresent(findTestObject(""Page_TrangChu/button_TurnAdOff""), 5)",Chrome 120.0.0.0,,,2024-01-13 13:47:17,2024-01-13 13:47:18,0.505s,PASSED
+"click(findTestObject(""Object Repository/Page_TrangChu/button_TurnAdOff""))",Chrome 120.0.0.0,,,2024-01-13 13:47:18,2024-01-13 13:47:18,0.729s,PASSED
+"mouseOver(findTestObject(""NavigationBar/dropdown_iconuser""))",Chrome 120.0.0.0,,,2024-01-13 13:47:18,2024-01-13 13:47:19,1.048s,PASSED
+"click(findTestObject(""Object Repository/NavigationBar/link_DangNhap""))",Chrome 120.0.0.0,,,2024-01-13 13:47:19,2024-01-13 13:47:20,0.819s,PASSED
+"setText(findTestObject(""Object Repository/Page_DangNhap/input_email""), Email)",Chrome 120.0.0.0,,,2024-01-13 13:47:20,2024-01-13 13:47:22,2.012s,PASSED
+"setText(findTestObject(""Object Repository/Page_DangNhap/input_password""), Password)",Chrome 120.0.0.0,,,2024-01-13 13:47:22,2024-01-13 13:47:23,0.815s,PASSED
+"click(findTestObject(""Object Repository/Page_DangNhap/button_DangNhap""))",Chrome 120.0.0.0,,,2024-01-13 13:47:23,2024-01-13 13:47:25,2.402s,PASSED
+"waitForElementPresent(findTestObject(""Page_TrangChu/button_TurnAdOff""), 5)",Chrome 120.0.0.0,,,2024-01-13 13:47:25,2024-01-13 13:47:27,1.726s,PASSED
+"click(findTestObject(""Object Repository/Page_TrangChu/button_TurnAdOff""))",Chrome 120.0.0.0,,,2024-01-13 13:47:27,2024-01-13 13:47:28,0.441s,PASSED
+"mouseOver(findTestObject(""NavigationBar/dropdown_iconuser""))",Chrome 120.0.0.0,,,2024-01-13 13:47:28,2024-01-13 13:47:29,1.039s,PASSED
+"verifyElementPresent(findTestObject(""NavigationBar/link_ThongTinUser""), 0)",Chrome 120.0.0.0,,,2024-01-13 13:47:29,2024-01-13 13:47:29,0.403s,PASSED

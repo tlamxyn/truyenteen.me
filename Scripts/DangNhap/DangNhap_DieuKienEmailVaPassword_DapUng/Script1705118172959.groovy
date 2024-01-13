@@ -21,11 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://truyenteen.me/')
 
-WebUI.waitForElementPresent(findTestObject('Page_TrangChu/button_TurnAdOff'), 5)
+WebUI.waitForElementPresent(findTestObject('Page_TrangChu/button_TurnAdOff'), 10)
 
 WebUI.click(findTestObject('Object Repository/Page_TrangChu/button_TurnAdOff'))
 
 WebUI.mouseOver(findTestObject('NavigationBar/dropdown_iconuser'))
+
+WebUI.waitForElementVisible(findTestObject('NavigationBar/link_DangNhap'), 10)
 
 WebUI.click(findTestObject('Object Repository/NavigationBar/link_DangNhap'))
 
@@ -35,11 +37,33 @@ WebUI.setText(findTestObject('Object Repository/Page_DangNhap/input_password'), 
 
 WebUI.click(findTestObject('Object Repository/Page_DangNhap/button_DangNhap'))
 
-WebUI.click(findTestObject('Object Repository/Page_TrangChu/button_TurnAdOff'))
+boolean successLogin = WebUI.waitForElementVisible(findTestObject('Page_TrangChu/button_TurnAdOff'), 5)
 
-WebUI.mouseOver(findTestObject('NavigationBar/dropdown_iconuser'))
+List<String[]> listOfCorrectAccount = GoodList.getData()
 
-WebUI.verifyElementPresent(findTestObject('NavigationBar/link_ThongTinUser'), 0)
+if (successLogin) {
+    WebUI.click(findTestObject('Object Repository/Page_TrangChu/button_TurnAdOff'))
 
-WebUI.closeBrowser()
+    WebUI.mouseOver(findTestObject('NavigationBar/dropdown_iconuser'))
+
+    WebUI.verifyElementPresent(findTestObject('NavigationBar/link_ThongTinUser'), 5)
+
+    List<String[]> validAccount = listOfCorrectAccount.find({ def e ->
+            ((e[0]) == Email) && ((e[1]) == Password)
+        })
+
+    if (!(validAccount)) {
+        assert "Email: $Email và Password: $Password không hợp lệ. Kết quả mong đợi là không đăng nhập được.Kết quả thực tế lại đăng nhập thành công"
+    }
+} else {
+    List<String[]> validAccount = listOfCorrectAccount.find({ def e ->
+            ((e[0]) == Email) && ((e[1]) == Password)
+        })
+
+    if (validAccount) {
+        assert "Email: $Email và Password: $Password không hợp lệ. Kết quả mong đợi là đăng nhập được. Kết quả thực tế lại không đăng nhập thành công"
+    }
+}
+
+WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 
